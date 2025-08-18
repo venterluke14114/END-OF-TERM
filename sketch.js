@@ -431,7 +431,7 @@ function draw() {
 function keyPressed() {
   // If a slider/input is focused, blur it so number keys work
   const active = document.activeElement;
-  if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) {
+  if (active && (active.tagName ===  || active.tagName === 'TEXTAREA')) {
     active.blur();
   }
 
