@@ -415,9 +415,7 @@ function draw() {
       placeholder(cellX(0), cellY(4));
     }
 
-    // (row 5, col 2 & 3): reserved for “Threshold from colour space 1/2” (next tasks)
-    placeholder(cellX(1), cellY(4));
-    placeholder(cellX(2), cellY(4));
+    
   } else {
     // placeholders for snapshot-dependent cells
     placeholder(cellX(1), cellY(0));
